@@ -14,18 +14,17 @@ const Gallery = () => {
 
   // Placeholder images - in real implementation, these would be actual images
   const images = [
-    { id: 1, category: 'classrooms', title: 'Modern Classroom', description: 'Well-equipped learning spaces' },
-    { id: 2, category: 'events', title: 'Sports Day', description: 'Annual sports competition' },
-    { id: 3, category: 'sports', title: 'Football Training', description: 'Students during sports practice' },
-    { id: 4, category: 'activities', title: 'Art Class', description: 'Creative arts activities' },
-    { id: 5, category: 'classrooms', title: 'Computer Lab', description: 'ICT learning facility' },
-    { id: 6, category: 'events', title: 'Cultural Day', description: 'Celebrating diversity' },
-    { id: 7, category: 'sports', title: 'Athletics Meet', description: 'Track and field events' },
-    { id: 8, category: 'activities', title: 'Music Class', description: 'Developing musical talents' },
-    { id: 9, category: 'classrooms', title: 'Science Lab', description: 'Hands-on science experiments' },
-    { id: 10, category: 'events', title: 'Graduation', description: 'P7 graduation ceremony' },
-    { id: 11, category: 'sports', title: 'Basketball Team', description: 'Our basketball champions' },
-    { id: 12, category: 'activities', title: 'Drama Performance', description: 'School play presentation' }
+    { id: 1, category: 'classrooms', title: 'Modern Classroom', description: 'Well-equipped learning spaces', src: '/gallery/play.jpg' },
+    { id: 2, category: 'events', title: 'Sports Day', description: 'Annual sports competition', src: '/gallery/kids.jpg' },
+    { id: 3, category: 'events', title: 'Celebration Day', description: 'Students during celebration', src: '/gallery/celebration.jpg' },
+    { id: 4, category: 'activities', title: 'Sanitation Day', description: 'School cleaning activities', src: '/gallery/sanitation.jpg' },
+    { id: 5, category: 'classrooms', title: 'Compound Showcase', description: 'Beautiful school compound', src: '/gallery/compound.jpg' },
+    { id: 6, category: 'events', title: 'Tour', description: 'Tour with parents and community', src: '/gallery/guess.jpg' },
+    { id: 7, category: 'sports', title: 'Namugongo', description: 'visited Namugongo', src: '/gallery/namugongo.jpg' },
+    { id: 8, category: 'activities', title: 'Tour 2', description: 'Second school tour', src: '/gallery/tour1.jpg' },
+    { id: 9, category: 'activities', title: 'Tour 3', description: 'Third school tour', src: '/gallery/tour2.jpg' },
+    { id: 10, category: 'events', title: 'Community Service', description: 'Students helping the community', src: '/gallery/tour3.jpg' },
+    { id: 11, category: 'activities', title: 'Tour 4', description: 'Fourth school tour around lake', src: '/gallery/visit.jpg' },
   ];
 
   const filteredImages = selectedCategory === 'all' 
@@ -63,7 +62,7 @@ const Gallery = () => {
             {filteredImages.map(image => (
               <div key={image.id} className="gallery-item">
                 <div className="gallery-image-placeholder">
-                  <div className="placeholder-icon">📷</div>
+                  <img src={image.src} alt={image.title} className='placeholder-image'/>
                   <div className="image-overlay">
                     <h4>{image.title}</h4>
                     <p>{image.description}</p>
@@ -74,13 +73,6 @@ const Gallery = () => {
           </div>
 
           {/* Note */}
-          <div className="gallery-note">
-            <p>
-              <strong>Note:</strong> This is a sample gallery structure. In the production version, 
-              actual school photos would be displayed here. Images can be easily added by placing 
-              them in the appropriate folder and updating the image array.
-            </p>
-          </div>
         </div>
       </section>
     </div>

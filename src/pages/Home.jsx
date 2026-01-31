@@ -121,12 +121,12 @@ const Home = () => {
           <div className="stats-grid">
             <div className="stat-card">
               <div className="stat-icon">📚</div>
-              <div className="stat-number">20+</div>
+              <div className="stat-number">10</div>
               <div className="stat-label">Years of Excellence</div>
             </div>
             <div className="stat-card">
               <div className="stat-icon">📸</div>
-              <div className="stat-number">30+</div>
+              <div className="stat-number">10+</div>
               <div className="stat-label">Thousand Photoshoots</div>
             </div>
             <div className="stat-card">

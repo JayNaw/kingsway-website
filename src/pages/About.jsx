@@ -46,7 +46,8 @@ const About = () => {
               <div className="vm-icon">👁️</div>
               <h3>Our Vision</h3>
               <p>
-                To be a leading Christian educational institution that nurtures holistic 
+                To be the Center of Academic Excellence and 
+                be a leading Christian educational institution that nurtures holistic 
                 development, producing leaders of integrity who will positively impact 
                 their communities and the world with faith and excellence.
               </p>
@@ -56,7 +57,8 @@ const About = () => {
               <div className="vm-icon">🎯</div>
               <h3>Our Mission</h3>
               <p>
-                To provide quality Christ-centered education that develops students 
+                Provide quality and affordable education to all children to suit the world
+                and develops students 
                 academically, spiritually, socially, and physically, preparing them to 
                 become responsible citizens and faithful servants of God.
               </p>
@@ -73,7 +75,7 @@ const About = () => {
           <div className="values-grid">
             <div className="value-card">
               <div className="value-number">1</div>
-              <h3>Faith in God</h3>
+              <h3>Be God Fearing</h3>
               <p>
                 We believe in God as the foundation of all knowledge and wisdom. 
                 Our educational approach is grounded in Christian principles and biblical teachings.
@@ -82,9 +84,10 @@ const About = () => {
 
             <div className="value-card">
               <div className="value-number">2</div>
-              <h3>Academic Excellence</h3>
+              <h3>Displine</h3>
               <p>
-                We are committed to providing high-quality education that challenges 
+                We believe in discipline as a key to success and
+                we are committed to providing high-quality education that challenges 
                 students to reach their full potential and excel in all areas of learning.
               </p>
             </div>
@@ -100,10 +103,11 @@ const About = () => {
 
             <div className="value-card">
               <div className="value-number">4</div>
-              <h3>Holistic Development</h3>
+              <h3>Team Work</h3>
               <p>
-                We focus on developing the whole child—intellectually, spiritually, 
-                emotionally, socially, and physically—for balanced growth.
+                We focus on developing the whole child intellectually, spiritually, 
+                emotionally, socially, and physically for balanced growth through collaboration 
+                and teamwork.
               </p>
             </div>
 
@@ -118,10 +122,10 @@ const About = () => {
 
             <div className="value-card">
               <div className="value-number">6</div>
-              <h3>Community & Service</h3>
+              <h3>Accountability & Transparency</h3>
               <p>
-                We promote a sense of community and teach students the importance 
-                of serving others and making positive contributions to society.
+                We uphold high standards of accountability and transparency in all our operations, 
+                fostering trust and integrity within our school community.
               </p>
             </div>
           </div>

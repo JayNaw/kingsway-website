@@ -56,21 +56,26 @@ const Footer = () => {
               <h4>Contact Info</h4>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>
-                <p>Kampala, Uganda</p>
+                <p>Kalongo Town Council, Uganda</p>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <p>+256 XXX XXX XXX</p>
+                <p>Director: +256 772 511 720</p>
+              </div>
+              <div className="contact-item">
+                <span className="contact-icon">📞</span>
+                <p>Hd-teacher: +256 772 157 140</p>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">✉️</span>
-                <p>info@kingsway.ac.ug</p>
+                <p>kingswayps@gmail.com</p>
               </div>
             </div>
           </div>
 
           <div className="footer-bottom">
             <p>&copy; {currentYear} Kingsway Primary & Kindergarten. All rights reserved.</p>
+            <p>Powered By danceCode developers</p>
           </div>
         </div>
       </div>

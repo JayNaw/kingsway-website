@@ -85,8 +85,8 @@ const Apply = () => {
                 <div className="detail-icon">📞</div>
                 <div className="detail-content">
                   <h4>Phone</h4>
-                  <p>+256 XXX XXX XXX</p>
-                  <p>+256 XXX XXX XXX</p>
+                  <p>+256 772 511 720</p>
+                  <p>+256 772 157 140</p>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@ const Apply = () => {
                 <div className="detail-icon">✉️</div>
                 <div className="detail-content">
                   <h4>Email</h4>
-                  <p>admissions@kingsway.ac.ug</p>
+                  <p>kingswayp@gmail.com</p>
                   <p>info@kingsway.ac.ug</p>
                 </div>
               </div>
@@ -103,8 +103,8 @@ const Apply = () => {
                 <div className="detail-icon">📍</div>
                 <div className="detail-content">
                   <h4>Location</h4>
-                  <p>Kampala, Uganda</p>
-                  <p>Plot XXX, Street Name</p>
+                  <p>Kalongo, Agago</p>
+                  <p>P.O Box 112087, Pader</p>
                 </div>
               </div>
 

@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="info-icon">📍</div>
                   <div className="info-content">
                     <h4>Address</h4>
-                    <p>Kampala, Uganda<br />Plot XXX, Street Name<br />P.O. Box XXXX</p>
+                    <p>Kalongo Town Council,<br />Agago District, Uganda<br />P.O. Box 112087, Pader</p>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ const Contact = () => {
                   <div className="info-icon">📞</div>
                   <div className="info-content">
                     <h4>Phone</h4>
-                    <p>+256 XXX XXX XXX<br />+256 XXX XXX XXX</p>
+                    <p>Head-Teacher: +256 772 157 140<br />Director: +256 772 511 720</p>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                   <div className="info-icon">✉️</div>
                   <div className="info-content">
                     <h4>Email</h4>
-                    <p>info@kingsway.ac.ug<br />admissions@kingsway.ac.ug</p>
+                    <p>kingswayp@gmail.com<br />admissions@kingsway.ac.ug</p>
                   </div>
                 </div>
 
@@ -158,9 +158,16 @@ const Contact = () => {
         <div className="container">
           <h2 className="section-title">Find Us On The Map</h2>
           <div className="map-placeholder">
-            <div className="map-icon">🗺️</div>
-            <p>Map integration placeholder</p>
-            <small>In production, this would show an embedded Google Maps location</small>
+            <iframe
+              title="Our location on map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3984.2277921476907!2d33.3731535!3d3.0334596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1776a3c3e0a75037%3A0x4344c213564344aa!2sKings&#39;%20Way%20Primary%20School%20Kalongo!5e0!3m2!1sen!2sug!4v1769872899127!5m2!1sen!2sug"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              width="100%"
+              height="450"
+            ></iframe>
+            
           </div>
         </div>
       </section>
