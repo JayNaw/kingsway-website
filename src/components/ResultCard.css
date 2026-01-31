@@ -1,0 +1,161 @@
+.result-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8faf5 100%);
+  border-radius: var(--border-radius);
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.result-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--primary-green), var(--primary-yellow));
+}
+
+.result-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-8px);
+  border-color: var(--primary-green);
+}
+
+.result-year {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-green);
+  margin-bottom: 16px;
+  font-family: 'Playfair Display', serif;
+}
+
+.result-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: var(--primary-green);
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.total-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1;
+}
+
+.total-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 4px;
+}
+
+.result-divisions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.division-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--white);
+  border: 2px solid #e8e8e8;
+  transition: var(--transition);
+}
+
+.division-item:hover {
+  border-color: var(--primary-green);
+  transform: scale(1.05);
+}
+
+.div1 {
+  border-left: 4px solid #4caf50;
+}
+
+.div2 {
+  border-left: 4px solid #8bc34a;
+}
+
+.div3 {
+  border-left: 4px solid #ffc107;
+}
+
+.div4 {
+  border-left: 4px solid #ff9800;
+}
+
+.div-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-gray);
+}
+
+.div-count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
+.result-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  background: linear-gradient(135deg, #fffbea 0%, #fff9e6 100%);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border-left: 4px solid var(--primary-yellow);
+}
+
+.highlight-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.result-highlight p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.result-footer {
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.pass-rate {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-green);
+}
+
+@media (max-width: 480px) {
+  .result-card {
+    padding: 24px;
+  }
+
+  .result-year {
+    font-size: 1.75rem;
+  }
+
+  .total-number {
+    font-size: 2.5rem;
+  }
+
+  .result-divisions {
+    grid-template-columns: 1fr;
+  }
+}

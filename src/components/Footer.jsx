@@ -1,0 +1,81 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css';
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            className="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      
+      <div className="footer-content">
+        <div className="container">
+          <div className="footer-grid">
+            <div className="footer-about">
+              <div className="footer-logo">
+                <img src="/logo.png" alt="Kingsway Logo" />
+                <div className="footer-logo-text">
+                  <h3>Kingsway</h3>
+                  <p className="footer-tagline">Primary and Kindergarten</p>
+                </div>
+              </div>
+              <p className="footer-motto">"In God We Trust"</p>
+              <p className="footer-description">
+                Building Pure Leaders with Faith, Grace & Excellence
+              </p>
+            </div>
+
+            <div className="footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About Us</Link></li>
+                <li><Link to="/academics">Academics</Link></li>
+                <li><Link to="/programs">Programs</Link></li>
+              </ul>
+            </div>
+
+            <div className="footer-links">
+              <h4>Resources</h4>
+              <ul>
+                <li><Link to="/gallery">Photo Gallery</Link></li>
+                <li><Link to="/contact">Contact Us</Link></li>
+                <li><Link to="/apply">Admissions</Link></li>
+              </ul>
+            </div>
+
+            <div className="footer-contact">
+              <h4>Contact Info</h4>
+              <div className="contact-item">
+                <span className="contact-icon">📍</span>
+                <p>Kampala, Uganda</p>
+              </div>
+              <div className="contact-item">
+                <span className="contact-icon">📞</span>
+                <p>+256 XXX XXX XXX</p>
+              </div>
+              <div className="contact-item">
+                <span className="contact-icon">✉️</span>
+                <p>info@kingsway.ac.ug</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer-bottom">
+            <p>&copy; {currentYear} Kingsway Primary & Kindergarten. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
