@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #2d5016 0%, #4a7c26 50%, #76b82a 100%);
+  background-image: url(/hero.png);
+  background-size: cover;
   overflow: hidden;
   margin-top: -82px;
   padding-top: 82px;
@@ -168,7 +169,9 @@
 }
 
 .levels-section {
-  background: var(--white);
+  background-image: url(/level.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .levels-grid {
@@ -347,6 +350,10 @@
 }
 
 @media (max-width: 968px) {
+  .hero-section {
+    background-size: auto 100%;
+  }
+
   .hero-title {
     font-size: 3rem;
   }

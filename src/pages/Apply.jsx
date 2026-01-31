@@ -85,8 +85,8 @@ const Apply = () => {
                 <div className="detail-icon">📞</div>
                 <div className="detail-content">
                   <h4>Phone</h4>
-                  <p>+256 772 511 720</p>
-                  <p>+256 772 157 140</p>
+                  <p>Director: +256 772 511 720</p>
+                  <p>Head-Teacher: +256 772 157 140</p>
                 </div>
               </div>
 
