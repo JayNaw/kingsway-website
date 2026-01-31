@@ -7,7 +7,13 @@
   background: var(--white);
   transition: var(--transition);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
+  margin: 2% 5%;
+  border-radius: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(117, 250, 76, 0) 3%,
+    rgb(229, 233, 228) 30%
+  );}
 
 .navbar.scrolled {
   box-shadow: var(--shadow-md);
@@ -50,6 +56,8 @@
   font-weight: 700;
   color: var(--dark-green);
   line-height: 1.2;
+  color: rgb(7, 120, 185);
+  opacity: 1;
 }
 
 .logo-tagline {
