@@ -5,6 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const location = useLocation();
 
   useEffect(() => {
@@ -12,8 +13,19 @@ const Navbar = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      if (window.innerWidth > 968) {
+        setIsMobileMenuOpen(false); // close mobile menu on large screens
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const navItems = [
@@ -50,9 +62,12 @@ const Navbar = () => {
             ))}
           </div>
 
-          <Link to="/apply" className="btn btn-primary apply-btn">
-            Apply Now
-          </Link>
+          {/* Apply button only visible on large screens */}
+          {windowWidth > 968 && (
+            <Link to="/apply" className="btn btn-primary apply-btn">
+              Apply Now
+            </Link>
+          )}
 
           <button
             className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
