@@ -5,6 +5,11 @@
   align-items: start;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-info h2,
 .contact-form-container h2 {
   font-size: 2rem;
@@ -21,8 +26,10 @@
 
 .info-cards {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .info-card {
@@ -34,6 +41,7 @@
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
   border-left: 4px solid var(--primary-green);
+  width: 100%;
 }
 
 .info-card:hover {
@@ -44,6 +52,16 @@
 .info-icon {
   font-size: 2.5rem;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+}
+
+.info-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-content h4 {
@@ -65,6 +83,12 @@
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-sm);
   border-top: 4px solid var(--primary-green);
+  transition: var(--transition);
+  width: 100%;
+}
+
+.visit-note:hover {
+  box-shadow: var(--shadow-md);
 }
 
 .visit-note h3 {
@@ -115,6 +139,9 @@
   font-size: 0.95rem;
   font-family: 'Poppins', sans-serif;
   transition: var(--transition);
+  background: var(--white);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -124,19 +151,45 @@
   box-shadow: 0 0 0 3px rgba(118, 184, 42, 0.1);
 }
 
+.form-group input:valid,
+.form-group textarea:valid {
+  border-color: var(--primary-green);
+}
+
 .form-group textarea {
   resize: vertical;
   min-height: 120px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-form button {
   width: 100%;
   padding: 16px;
   font-size: 1rem;
+  background: var(--primary-green);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-form button:hover {
+  background: var(--dark-green);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.contact-form button:active {
+  transform: translateY(0);
 }
 
 .map-section {
   background: var(--light-bg);
+  padding: 60px 0;
 }
 
 .map-placeholder {
@@ -150,6 +203,7 @@
   justify-content: center;
   gap: 16px;
   box-shadow: var(--shadow-md);
+  box-sizing: border-box;
 }
 
 .map-icon {
@@ -169,6 +223,7 @@
   color: var(--text-gray);
 }
 
+/* ---------- TABLET ---------- */
 @media (max-width: 968px) {
   .contact-grid {
     grid-template-columns: 1fr;
@@ -177,20 +232,131 @@
 
   .contact-form-container {
     position: static;
+    box-shadow: var(--shadow-sm);
   }
-}
 
-@media (max-width: 580px) {
-  .contact-form-container {
-    padding: 30px 20px;
+  .contact-info h2,
+  .contact-form-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .info-cards {
+    gap: 20px;
   }
 
   .info-card {
+    padding: 22px;
+    gap: 18px;
+  }
+
+  .info-icon {
+    font-size: 2.2rem;
+    min-width: 45px;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 580px) {
+  .contact-form-container {
+    padding: 24px;
+  }
+
+  .contact-info {
+    padding: 0;
+  }
+
+  .info-cards {
+    gap: 16px;
+  }
+
+  .info-card {
+    padding: 20px;
+    gap: 16px;
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .info-card:hover {
+    transform: translateX(3px);
+  }
+
+  .info-icon {
+    font-size: 2rem;
+    min-width: auto;
+    align-self: flex-start;
+  }
+
+  .info-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .visit-note {
+    padding: 24px;
+  }
+
+  .contact-intro {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+
+  .contact-form button {
+    padding: 14px;
+    font-size: 0.95rem;
   }
 
   .map-placeholder {
     height: 300px;
+  }
+
+  .map-icon {
+    font-size: 3rem;
+  }
+
+  .map-placeholder p {
+    font-size: 1rem;
+  }
+
+  .map-placeholder small {
+    font-size: 0.8rem;
+  }
+}
+
+/* ---------- SMALL MOBILE ---------- */
+@media (max-width: 380px) {
+  .contact-form-container {
+    padding: 20px;
+  }
+
+  .contact-info h2,
+  .contact-form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .info-card {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .info-icon {
+    font-size: 1.8rem;
+  }
+
+  .info-content h4 {
+    font-size: 1rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 14px;
+    font-size: 0.9rem;
+  }
+
+  .map-placeholder {
+    height: 250px;
+  }
+
+  .contact-intro {
+    font-size: 0.9rem;
   }
 }
