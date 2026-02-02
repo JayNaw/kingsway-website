@@ -16,9 +16,9 @@ const Apply = () => {
       icon: '📋'
     },
     {
-      title: 'School Calender',
+      title: 'School Calendar',
       description: 'Breakdown of timeline school runs',
-      filename: 'school-calender.pdf',
+      filename: 'school-calendar.pdf',
       icon: '💰'
     },
     {
@@ -31,7 +31,8 @@ const Apply = () => {
 
   function downloadDocument(filename) {
     const link = document.createElement('a');
-    link.href = `/documents/${filename}`;
+    // files are stored in the public/admissions folder and served from root
+    link.href = `/admissions/${filename}`;
     link.setAttribute("download", filename);
     document.body.appendChild(link);
     link.click();
