@@ -10,15 +10,15 @@ const Apply = () => {
       icon: '📝'
     },
     {
-      title: 'School Requirements',
-      description: 'List of required documents and items for new students',
-      filename: 'requirements.pdf',
+      title: 'Medical Form',
+      description: 'This form is required when your child is sick',
+      filename: 'medical-form.pdf',
       icon: '📋'
     },
     {
-      title: 'Fees Structure',
-      description: 'Detailed breakdown of school fees and payment schedules',
-      filename: 'fees-structure.pdf',
+      title: 'School Calender',
+      description: 'Breakdown of timeline school runs',
+      filename: 'school-calender.pdf',
       icon: '💰'
     },
     {
