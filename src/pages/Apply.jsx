@@ -29,9 +29,17 @@ const Apply = () => {
     }
   ];
 
+  function downloadDocument(filename) {
+    const link = document.createElement('a');
+    link.href = `/documents/${filename}`;
+    link.setAttribute("download", filename);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   const handleDownload = (filename) => {
-    // In production, this would trigger actual PDF download
-    alert(`Downloading: ${filename}\n\nNote: In production, this would download the actual PDF file from /public/admissions/${filename}`);
+    downloadDocument(filename);
   };
 
   return (
