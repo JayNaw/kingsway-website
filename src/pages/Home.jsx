@@ -11,10 +11,10 @@ const Home = () => {
         <div className="hero-content">
           <div className="container">
             <h1 className="hero-title fade-in-up">
-              Welcome to <span className="highlight">Kingsway</span>
+              Welcome to <span className="highlight">King's Way</span>
             </h1>
             <p className="hero-subtitle fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Primary and Kindergarten
+              Kindergarten & Primary School
             </p>
             <p className="hero-tagline fade-in-up" style={{ animationDelay: '0.4s' }}>
               Building Pure Leaders with Faith, Grace & Excellence
@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <h2 className="section-title">Christian Education</h2>
             <p className="welcome-text">
-              At Kingsway Primary and Kindergarten, we provide a nurturing environment where 
+              At King's Way Kindergarten and Primary, we provide a nurturing environment where 
               children develop academically, spiritually, and socially. Our Christian-based 
               education focuses on building character, fostering excellence, and preparing 
               students to become leaders with integrity and faith.
@@ -116,7 +116,7 @@ const Home = () => {
       {/* Why Choose Section */}
       <section className="section why-choose-section">
         <div className="container">
-          <h2 className="section-title">Why Choose Kingsway?</h2>
+          <h2 className="section-title">Why Choose King's Way?</h2>
           
           <div className="stats-grid">
             <div className="stat-card">

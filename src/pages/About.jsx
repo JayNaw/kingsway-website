@@ -22,7 +22,7 @@ const About = () => {
             <div className="about-intro-content">
               <h2>Who We Are</h2>
               <p>
-                Kingsway Primary & Kindergarten is a Christian-based educational institution 
+                King's Way Kindergarten & Primary is a Christian-based educational institution 
                 dedicated to nurturing young minds with faith, excellence, and character. 
                 Established with a vision to build pure leaders, we combine academic rigor 
                 with spiritual growth to prepare students for a successful future.
@@ -153,7 +153,7 @@ const About = () => {
       {/* Why Choose Us */}
       <section className="section why-section">
         <div className="container">
-          <h2 className="section-title">Why Choose Kingsway?</h2>
+          <h2 className="section-title">Why Choose King's Way?</h2>
           
           <div className="why-grid">
             <div className="why-card">

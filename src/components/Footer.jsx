@@ -21,10 +21,10 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="footer-about">
               <div className="footer-logo">
-                <img src="/logo.png" alt="Kingsway Logo" />
+                <img src="/logo.png" alt="King's Way Logo" />
                 <div className="footer-logo-text">
-                  <h3>Kingsway</h3>
-                  <p className="footer-tagline">Primary and Kindergarten</p>
+                  <h3>King's Way</h3>
+                  <p className="footer-tagline">Kindergarten & Primary</p>
                 </div>
               </div>
               <p className="footer-motto">"In God We Trust"</p>
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {currentYear} Kingsway Primary & Kindergarten. All rights reserved.</p>
+            <p>&copy; {currentYear} King's Way Kindergarten & Primary. All rights reserved.</p>
             <p>Powered By danceCode developers</p>
           </div>
         </div>

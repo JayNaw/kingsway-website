@@ -14,7 +14,7 @@ const Gallery = () => {
 
   // Placeholder images - in real implementation, these would be actual images
   const images = [
-    { id: 1, category: 'classrooms', title: 'Modern Classroom', description: 'Well-equipped learning spaces', src: '/gallery/play.jpg' },
+    { id: 1, category: 'classrooms', title: 'Academic Exploration', description: 'Well-equipped learning spaces', src: '/gallery/play.jpg' },
     { id: 2, category: 'events', title: 'Sports Day', description: 'Annual sports competition', src: '/gallery/kids.jpg' },
     { id: 3, category: 'events', title: 'Celebration Day', description: 'Students during celebration', src: '/gallery/celebration.jpg' },
     { id: 4, category: 'activities', title: 'Sanitation Day', description: 'School cleaning activities', src: '/gallery/sanitation.jpg' },
