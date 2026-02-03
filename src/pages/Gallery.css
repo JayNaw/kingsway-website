@@ -122,6 +122,19 @@
   color: #ef6c00;
 }
 
+.card {
+  background-color: #ADD8E6; /* Light Blue */
+  color: #333; /* Dark text for visibility */
+}
+
+.card:nth-child(odd) {
+  background-color: #FFA07A; /* Light Orange */
+}
+
+.card:nth-child(even) {
+  background-color: #E3FF8E; /* Light Lemon Green */
+}
+
 @media (max-width: 768px) {
   .gallery-grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

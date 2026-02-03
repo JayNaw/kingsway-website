@@ -21,7 +21,8 @@
 }
 
 .curriculum-card {
-  background: var(--white);
+  background: #ADD8E6; /* Light Blue */
+  color: #333; /* Dark text for visibility */
   padding: 40px 30px;
   border-radius: var(--border-radius);
   text-align: center;
