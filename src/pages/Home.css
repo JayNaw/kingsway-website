@@ -111,6 +111,7 @@
 
 .welcome-section {
   background: var(--light-bg);
+  padding: 0 0 80px;
 }
 
 .welcome-content {

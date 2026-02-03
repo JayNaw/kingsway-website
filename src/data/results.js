@@ -1,56 +1,56 @@
 export const academicResults = [
   {
     year: '2025',
-    totalCandidates: 100,
+    totalCandidates: 46,
     divisions: {
-      div1: 12,
-      div2: 18,
-      div3: 10,
-      div4: 5
+      div1: 45,
+      div2: 1,
+      div3: 0,
+      div4: 0
     },
-    highlight: 'Outstanding performance with 67% in Division 1 & 2'
+    highlight: 'Outstanding performance with 100% in Division 1 & 2'
   },
   {
     year: '2024',
-    totalCandidates: 90,
+    totalCandidates: 50,
     divisions: {
       div1: 28,
       div2: 22,
-      div3: 10,
-      div4: 2
+      div3: 0,
+      div4: 0
     },
-    highlight: 'Strong results with 62% in Division 1 & 2'
+    highlight: 'Strong results with 100% in Division 1 & 2'
   },
   {
     year: '2023',
-    totalCandidates: 80,
+    totalCandidates: 52,
     divisions: {
       div1: 20,
       div2: 32,
-      div3: 11,
-      div4: 4
+      div3: 0,
+      div4: 0
     },
     highlight: 'Consistent excellence maintained'
   },
   {
     year: '2022',
-    totalCandidates: 80,
+    totalCandidates: 64,
     divisions: {
       div1: 41,
       div2: 23,
-      div3: 10,
-      div4: 4
+      div3: 0,
+      div4: 0
     },
-    highlight: '65% of students achieved Division 1 & 2'
+    highlight: '100% of students achieved Division 1 & 2'
   },
   {
     year: '2021',
-    totalCandidates: 35,
+    totalCandidates: 56,
     divisions: {
       div1: 15,
       div2: 41,
-      div3: 10,
-      div4: 4
+      div3: 0,
+      div4: 0
     },
     highlight: 'Notable improvement in overall performance'
   }
