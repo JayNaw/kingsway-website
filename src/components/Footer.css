@@ -20,10 +20,31 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 80px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
 }
 
 .footer-wave .shape-fill {
   fill: var(--light-bg);
+}
+
+@media (max-width: 768px) {
+  .footer-wave svg {
+    height: 60px;
+  }
+  
+  .footer-wave {
+    top: -140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-wave svg {
+    height: 40px;
+  }
+  
+  .footer-wave {
+    top: -120px;
+  }
 }
 
 .footer-content {

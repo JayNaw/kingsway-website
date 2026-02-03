@@ -139,7 +139,7 @@
 @media (max-width: 968px) {
   .nav-menu {
     position: fixed;
-    top: 75px;
+    top: 90px;
     left: 3%;
     right: 3%;
     background: var(--white);
