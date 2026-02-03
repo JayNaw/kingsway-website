@@ -51,22 +51,30 @@ const Home = () => {
 
           <div className="features-grid">
             <div className="feature-card">
-              <div className="feature-icon">👥</div>
+              <div className="feature-icon">
+                <img src="/Icon1.png" alt="Competent and Trained Teachers" />
+              </div>
               <h3>Competent and Trained Teachers</h3>
               <p>Expert educators dedicated to student success</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">🎯</div>
+              <div className="feature-icon">
+                <img src="/icon2.png" alt="Guidance and Counselling" />
+              </div>
               <h3>Guidance and Counselling</h3>
               <p>Supporting holistic student development</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">📚</div>
+              <div className="feature-icon">
+                <img src="/icon3.png" alt="Co-curricular Activities" />
+              </div>
               <h3>Co-curricular Activities</h3>
               <p>Well-rounded education beyond academics</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">✨</div>
+              <div className="feature-icon">
+                <img src="/icon4.png" alt="Best at Grooming Leaders" />
+              </div>
               <h3>Best at Grooming Leaders</h3>
               <p>Building tomorrow's leaders today</p>
             </div>
