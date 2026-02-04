@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import './Gallery.css';
 
 const Gallery = () => {
@@ -37,6 +38,17 @@ const Gallery = () => {
 
   return (
     <div className="gallery-page">
+      <Helmet>
+        <title>Gallery — Kings' Way School Photos</title>
+        <meta name="description" content="Browse photos from Kings' Way events, classrooms, sports and activities showcasing our school community and learning environment." />
+        <meta name="keywords" content="gallery, photos, Kings' Way, events, classrooms, sports" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/gallery" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/gallery" />
+      </Helmet>
       {/* Page Header */}
       <section className="page-header">
         <div className="container">

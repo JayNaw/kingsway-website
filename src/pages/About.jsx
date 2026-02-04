@@ -1,9 +1,21 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './About.css';
 
 const About = () => {
   return (
     <div className="about-page">
+      <Helmet>
+        <title>About Us — Kings' Way Kindergarten & Primary</title>
+        <meta name="description" content="Learn about Kings' Way: our vision, mission, values and commitment to Christian-based education and excellence in Kalongo, Agago." />
+        <meta name="keywords" content="Kings' Way, about, vision, mission, Christian school, Uganda" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/about" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/about" />
+      </Helmet>
       {/* Page Header */}
       <section className="page-header">
         <div className="container">

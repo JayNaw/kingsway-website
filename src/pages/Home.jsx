@@ -1,10 +1,22 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className="home-page">
+      <Helmet>
+        <title>Kings' Way — Kindergarten & Primary School | Home</title>
+        <meta name="description" content="Kings' Way Kindergarten & Primary: Christian-based education building leaders with faith, excellence and strong academics in Kalongo, Agago." />
+        <meta name="keywords" content="Kings' Way, kindergarten, primary school, Christian school, education, admissions, Uganda" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/" />
+      </Helmet>
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay"></div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './Apply.css';
 
 const Apply = () => {
@@ -45,6 +46,17 @@ const Apply = () => {
 
   return (
     <div className="apply-page">
+      <Helmet>
+        <title>Admissions — Apply to Kings' Way</title>
+        <meta name="description" content="Admissions information and downloadable forms for Kings' Way Kindergarten & Primary. Start your child's application process today." />
+        <meta name="keywords" content="admissions, apply, Kings' Way, application form, download, kindergarten, primary" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/admissions" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/admissions" />
+      </Helmet>
       {/* Page Header */}
       <section className="page-header">
         <div className="container">

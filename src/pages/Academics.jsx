@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import ResultCard from '../components/ResultCard';
 import { academicResults, divisionGuide } from '../data/results';
 import './Academics.css';
@@ -6,6 +7,17 @@ import './Academics.css';
 const Academics = () => {
   return (
     <div className="academics-page">
+      <Helmet>
+        <title>Academics — Kings' Way Primary & Kindergarten</title>
+        <meta name="description" content="Explore academic programs, curriculum overview and assessment approach at Kings' Way — where faith and excellence guide student success." />
+        <meta name="keywords" content="academics, curriculum, Kings' Way, primary school, kindergarten, assessment" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/academics" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/academics" />
+      </Helmet>
       {/* Page Header */}
       <section className="page-header">
         <div className="container">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import './Contact.css';
 
 const Contact = () => {
@@ -25,6 +26,17 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
+      <Helmet>
+        <title>Contact — Kings' Way Primary & Kindergarten</title>
+        <meta name="description" content="Get in touch with Kings' Way admissions and administration. Visit, call, or send a message to learn more about our programs and enrollment." />
+        <meta name="keywords" content="contact, Kings' Way, admissions, phone, email, location, Uganda" />
+        <meta property="og:title" content="Kings' Way Kindagarten & Primary School" />
+        <meta property="og:description" content="Providing quality early childhood and primary education in a safe and caring environment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingswaykindagartenandprinaryschool.com/contact" />
+        <meta property="og:image" content="https://www.kingswaykindagartenandprinaryschool.com/logo.png" />
+        <link rel="canonical" href="https://www.kingswaykindagartenandprinaryschool.com/contact" />
+      </Helmet>
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
