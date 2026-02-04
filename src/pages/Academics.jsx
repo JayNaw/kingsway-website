@@ -9,7 +9,7 @@ const Academics = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Academics at King's Way</h1>
+          <h1>Academics at Kings' Way</h1>
           <p>Building Future Leaders with Faith and Excellence</p>
         </div>
       </section>
@@ -20,7 +20,7 @@ const Academics = () => {
           <div className="academic-intro">
             <h2 className="section-title">Our Academic Philosophy</h2>
             <p className="intro-text">
-              At King's Way Primary & Kindergarten, we believe that academic excellence goes 
+              At Kings' Way Primary & Kindergarten, we believe that academic excellence goes 
               hand in hand with character development and spiritual growth. Our approach to 
               education is holistic, ensuring that every child develops intellectually, 
               morally, and spiritually.

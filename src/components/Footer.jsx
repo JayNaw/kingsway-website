@@ -21,9 +21,9 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="footer-about">
               <div className="footer-logo">
-                <img src="/logo.png" alt="King's Way Logo" />
+                <img src="/logo.png" alt="Kings' Way Logo" />
                 <div className="footer-logo-text">
-                  <h3>King's Way</h3>
+                  <h3>Kings' Way</h3>
                   <p className="footer-tagline">Kindergarten & Primary</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {currentYear} King's Way Kindergarten & Primary. All rights reserved.</p>
+            <p>&copy; {currentYear} Kings' Way Kindergarten & Primary. All rights reserved.</p>
             <p>Powered By danceCode developers</p>
           </div>
         </div>

@@ -42,9 +42,9 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-content">
           <Link to="/" className="logo">
-            <img src="/logo.png" alt="King's Way Logo" />
+            <img src="/logo.png" alt="Kings' Way Logo" />
             <div className="logo-text">
-              <span className="logo-name">King's Way</span>
+              <span className="logo-name">Kings' Way</span>
               <span className="logo-tagline">Kindergarten and Primary</span>
             </div>
           </Link>
