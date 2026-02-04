@@ -49,7 +49,7 @@ const Apply = () => {
       <section className="page-header">
         <div className="container">
           <h1>Admissions</h1>
-          <p>Join the Kingsway Family Today</p>
+          <p>Join the Kings' Way Family Today</p>
         </div>
       </section>
 
@@ -57,10 +57,10 @@ const Apply = () => {
       <section className="section">
         <div className="container">
           <div className="admissions-intro">
-            <h2>Welcome to Kingsway Admissions</h2>
+            <h2>Welcome to Kings' Way Admissions</h2>
             <p>
-              We are delighted that you are considering Kingsway Primary & Kindergarten 
-              for your child's education. At Kingsway, we are committed to providing a 
+              We are delighted that you are considering Kings' Way Primary & Kindergarten 
+              for your child's education. At Kings' Way, we are committed to providing a 
               nurturing, faith-based learning environment where every child can thrive 
               academically, spiritually, and socially.
             </p>
@@ -81,10 +81,10 @@ const Apply = () => {
           <div className="primary-contact-card">
             <div className="contact-header">
               <div className="contact-badge">
-                <img src="/logo.png" alt="Kingsway Logo" />
+                <img src="/logo.png" alt="Kings' Way Logo" />
               </div>
               <div>
-                <h3>Kingsway Primary & Kindergarten</h3>
+                <h3>Kings' Way Primary & Kindergarten</h3>
                 <p className="contact-subtitle">Admissions Office</p>
               </div>
             </div>
