@@ -25,6 +25,10 @@ const Gallery = () => {
     { id: 9, category: 'activities', title: 'Tour 3', description: 'Third school tour', src: '/gallery/tour2.jpg' },
     { id: 10, category: 'events', title: 'Community Service', description: 'Students helping the community', src: '/gallery/tour3.jpg' },
     { id: 11, category: 'activities', title: 'Tour 4', description: 'Fourth school tour around lake', src: '/gallery/visit.jpg' },
+    { id: 12, category: 'classrooms', title: 'Our Staff', description: 'Dedicated teaching staff', src: '/gallery/staff1.jpg' },
+    { id: 13, category: 'classrooms', title: 'Our Staff 2', description: 'More of our dedicated staff', src: '/gallery/staff2.jpg' },
+    {id: 14, category: 'activities', title: 'Dedication', description: 'School dedication event', src: '/gallery/dedication.jpg' },
+    { id: 15, category: 'events', title: 'Our Valued Support Staff', description: 'Support staff at work', src: '/gallery/non-teaching.jpg' }
   ];
 
   const filteredImages = selectedCategory === 'all' 
