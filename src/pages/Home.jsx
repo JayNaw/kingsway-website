@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div className="home-page">
       <Helmet>
-        <title>Kingsway Kindergarten & Primary School | Quality Education</title>
+        <title>Kings' Way Kindergarten & Primary School | Quality Education</title>
         <meta
           name="description"
-          content="Kingsway Kindergarten and Primary School provides high-quality early childhood and primary education in a safe and caring environment."
+          content="Kings' Way Kindergarten and Primary School provides high-quality early childhood and primary education in a safe and caring environment."
         />
-        <meta property="og:title" content="Kingsway Kindergarten & Primary School" />
+        <meta property="og:title" content="Kings' Way Kindergarten & Primary School" />
         <meta
           property="og:description"
           content="Providing quality early childhood and primary education in a safe and caring environment."
