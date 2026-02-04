@@ -76,7 +76,7 @@
   border-top: 4px solid #1E88E5;
   border-right: 4px solid #9BE15D;
   border-bottom: 4px solid #FFD54F;
-  animation: spin 1.4s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
