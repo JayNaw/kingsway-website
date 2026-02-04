@@ -20,6 +20,10 @@ import Apply from './pages/Apply';
 
 import './index.css';
 
+import ScrollToTop from './components/ScrollToTop';
+
+
+
 /* ---------- Route Loader Wrapper ---------- */
 function RouteLoader({ children }) {
   const location = useLocation();
@@ -43,10 +47,17 @@ function RouteLoader({ children }) {
   );
 }
 
+if ("scrollRestoration" in window.history) {
+  window.history.scrollRestoration = "manual";
+}
+
 /* ---------- App ---------- */
 function App() {
   return (
     <Router>
+
+      <ScrollToTop />
+
       <RouteLoader>
         <div className="App">
           <Navbar />
