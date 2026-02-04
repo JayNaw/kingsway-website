@@ -78,7 +78,8 @@ const Contact = () => {
                   <div className="info-icon">✉️</div>
                   <div className="info-content">
                     <h4>Email</h4>
-                    <p>kingswayp@gmail.com<br />admissions@kingsway.ac.ug</p>
+                    <p><a href="mailto:kingswayp@gmail.com" className='gmail black'>kingswayp@gmail.com</a><br />
+                    <a href="mailto:admissions@kingsway.ac.ug" className='gmail black' >admissions@kingsway.ac.ug</a></p>
                   </div>
                 </div>
 

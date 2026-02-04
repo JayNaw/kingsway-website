@@ -154,6 +154,16 @@
   margin: 0;
 }
 
+a.gmail {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: var(--transition);
+}
+a.gmail:hover {
+  color: var(--primary-yellow);
+  transform: translateX(10px);
+}
+
 @media (max-width: 968px) {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
