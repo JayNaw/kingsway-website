@@ -20,70 +20,70 @@ const Videos = () => {
       category: 'activities', 
       title: 'Kids Playing on a Swing', 
       description: 'Kids enjoying playtime on a swing', 
-      src: 'src/videos/kids-playing-on-a-swing.mp4',
+      src: 'public/videos/kids-playing-on-a-swing.mp4',
     },
     { 
       id: 2, 
       category: 'educational', 
       title: 'English Class P4', 
       description: 'Exciting moments from English class', 
-      src: 'src/videos/english-class-p4.mp4',
+      src: 'public/videos/english-class-p4.mp4',
     },
     { 
       id: 3, 
       category: 'educational', 
-      title: 'English Class P5', 
-      description: 'English class activities for primary 5 students', 
-      src: 'src/videos/english-class.mp4',
+      title: 'English Class', 
+      description: 'English class activities for students', 
+      src: 'public/videos/english-class.mp4',
     },
     { 
       id: 4, 
       category: 'educational', 
       title: 'Learning in Action', 
       description: 'Students engaged in learning activities', 
-      src: 'src/videos/learning-in-action.mp4',
+      src: 'public/videos/learning-in-action.mp4',
     },
     { 
       id: 5, 
       category: 'educational', 
       title: 'Religion Class', 
       description: 'Students participating in religion class', 
-      src: 'src/videos/relegion-class.mp4',
+      src: 'public/videos/relegion-class.mp4',
     },
     { 
       id: 6, 
       category: 'activities', 
       title: 'Workshop', 
       description: 'Workshop held in school for teachers to intergrate learning at Kings Way', 
-      src: 'src/videos/workshop.mp4',
+      src: 'public/videos/workshop.mp4',
     },
     { 
       id: 7, 
       category: 'activities', 
       title: 'Curriculum review', 
       description: 'Curriculum review for the start of the year', 
-      src: 'src/videos/curriculum-review.mp4',
+      src: 'public/videos/curriculum-review.mp4',
     },
     { 
       id: 8, 
       category: 'activities', 
       title: 'Class room activities', 
       description: 'Students participating in class room activities', 
-      src: 'src/videos/classroom.mp4',
+      src: 'public/videos/classroom.mp4',
     },
     { 
       id: 9, 
-      category: 'event', 
+      category: 'events', 
       title: 'Workshop', 
       description: 'Teachers having a bit of fun at the Teachers Workshop', 
-      src: 'src/videos/abit-of-fun.mp4',
+      src: 'public/videos/abit-of-fun.mp4',
     },
     { 
       id: 10, 
-      category: 'event', 
+      category: 'events', 
       title: 'Teachers beginning of term meeting', 
       description: 'Teachers attending their beggining of term meeting', 
-      src: 'src/videos/term.mp4',
+      src: 'public/videos/term.mp4',
     }
   ];
 
@@ -136,11 +136,9 @@ const Videos = () => {
                 <div key={video.id} className="video-item">
                   <div className="video-player">
                     <video
-                      width="100%"
-                      height="100%"
-                      controls
-                      poster={video.thumbnail}
                       className="video-element"
+                      controls
+                      preload="metadata"
                     >
                       <source src={video.src} type="video/mp4" />
                       Your browser does not support the video tag.
