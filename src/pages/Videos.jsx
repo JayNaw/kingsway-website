@@ -138,7 +138,7 @@ const Videos = () => {
                     <video
                       className="video-element"
                       controls
-                      preload="metadata"
+                      preload="none"
                     >
                       <source src={video.src} type="video/mp4" />
                       Your browser does not support the video tag.
