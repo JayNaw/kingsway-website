@@ -15,6 +15,7 @@ import About from './pages/About';
 import Academics from './pages/Academics';
 import Programs from './pages/Programs';
 import Gallery from './pages/Gallery';
+import Videos from './pages/Videos';
 import Contact from './pages/Contact';
 import Apply from './pages/Apply';
 
@@ -69,6 +70,7 @@ function App() {
               <Route path="/academics" element={<Academics />} />
               <Route path="/programs" element={<Programs />} />
               <Route path="/gallery" element={<Gallery />} />
+              <Route path="/videos" element={<Videos />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/apply" element={<Apply />} />
             </Routes>

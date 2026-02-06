@@ -49,6 +49,7 @@ const Footer = () => {
                 <li><Link to="/gallery">Photo Gallery</Link></li>
                 <li><Link to="/contact">Contact Us</Link></li>
                 <li><Link to="/apply">Admissions</Link></li>
+                <li><Link to="/videos">Videos</Link></li>
               </ul>
             </div>
 
